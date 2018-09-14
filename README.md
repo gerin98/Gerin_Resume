@@ -1,3 +1,3 @@
 # Gerin_Resume
 
-![Resume Screenshot](/untitled-1.png)
+![Resume Screenshot](/Untitled-1.png)
