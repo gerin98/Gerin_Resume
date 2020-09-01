@@ -1,0 +1,138 @@
+\documentclass{gerin_cv}
+
+\setname{Gerin}{Amalaraj}
+\setaddress{Toronto, CA}
+\setmobile{416 - 576 - 5301}
+\setmail{gerin.amalaraj@mail.utoronto.ca}
+\setposition{Work Student} %ignored for now
+\setlinkedinaccount{https://www.linkedin.com/in/gerin-amalaraj/} %
+\setgithubaccount{https://github.com/gerin98} %
+\setgithuburl{github.com/gerin98}
+\setlinkedinurl{linkedin.com/in/gerin-amalaraj/}
+\setdevpostUrl{devpost.com/GerinAmalaraj}
+\setdevpostAccount{https://devpost.com/GerinAmalaraj}
+\setthemecolor{Red} %you can play with color of the template (red is also nice..)
+
+\begin{document}
+
+%%%%%%%%%%
+% Header %
+%%%%%%%%%%
+\headerview
+\vspace{1ex}
+\contactHeaderView
+
+%%%%%%%%%%%
+% Summary %
+%%%%%%%%%%%
+\addblocktext{Summary}{%
+    I'm a software developer and an Android enthusiast looking to grow and apply my skills developing, scaling and maintaining Android apps.
+}
+
+%%%%%%%%%%%%%
+% Education %
+%%%%%%%%%%%%%
+\section{Education} 
+    \datedexperience{University of Toronto}{2016 - 2021} 
+    \explanation{BASc in Electrical \& Computer Engineering} 
+    \explanationdetail{\coloredbullet\ % 
+        4th year student majoring in Computer Engineering with a Certificate in Artificial Intelligence%
+        \par%
+    }
+
+%%%%%%%%%%%%%%
+% Experience %
+%%%%%%%%%%%%%%
+\section{Experience}
+    %
+    \datedexperience{Associate Software Engineer - Android, Flipp}{05/2019 - 09/2020} %
+    % Sharing
+    \explanationdetail{\coloredbullet\ %
+        Overhauled our Deep Linking architecture and introduced our in-app Sharing feature\par %
+    }
+    \explanationSubDetail{\coloredbullet\ %
+       Led to an increase of \textbf{327\% YOY} in sharing and \textbf{5000+ app installs} in the first month\par %
+    }
+    \explanationSubDetail{\coloredbullet\ %
+       Unlocked Deferred Deep Linking and User Attribution capabilities\par %
+    }
+    % Coupon Book
+    \explanationdetail{\coloredbullet\ %
+        Implemented native coupon support on the Android app to render Coupon Books securing \textbf{\$20,000} from retailers\par %
+    }
+    % Maestro Renderer
+    \explanationdetail{\coloredbullet\ %
+        Created a renderer to dynamically display flyers from the backend. Allows control over flyer layouts, size and position giving the business more control over the content displayed and users more relevant content\par %
+    }
+    % CCPA
+    \explanationdetail{\coloredbullet\ %
+       Made our app \textbf{CCPA compliant} allowing California users to request and delete their personal data\par %
+    }
+    % New Technology
+    \explanationdetail{\coloredbullet\ %
+       Introduced and implemented new technologies into the codebase including Koin, DataBinding, WorkManager, Epoxy and Dynamic Feature Modules\par %
+    }
+    % Tech Debt
+    \explanationdetail{\coloredbullet\ %
+       Modernized the app by migrating to Room, using Coroutines, utilizing MVVM architecture and rewriting core components in Kotlin. Led to increased performance and reduced our crash rate by \textbf{over 25\%} \par %
+    }    
+    % Testing
+    \explanationdetail{\coloredbullet\ %
+       Extended automated test coverage to \textbf{100\%} of new components, reducing manual regression time\par %
+    }
+     %
+    \datedexperience{ESP (Engineering Strategies \& Practices) Intern, Elecsoft Consulting Inc.}{01/2017 - 04/2017} %
+    \explanationdetail{\coloredbullet\ %
+        Designed a 'smart weight lifting machine' to allow users to count their reps and calories burned on their phone by signing in with a QR code \par %
+    }
+    % \explanationdetail{\coloredbullet\ %
+    %   Designed a ’smart weight lifting machine’ to allow users to count their reps and calories burned on their phone by signing in with a QR code \par %
+    % }
+    
+%%%%%%%%%%
+% Skills %
+%%%%%%%%%%
+\section{Skills}
+    %
+    \newcommand{\skillOne}{\createskill{Programming Languages}{ Kotlin \cpshalf Java \cpshalf C/C++ \cpshalf Python }}
+    %
+    \newcommand{\skillTwo}{\createskill{Software Development}{CircleCi \cpshalf FireBase \cpshalf GIT \cpshalf CLI \cpshalf Agile Methodology \cpshalf Kubernetes}}
+    %
+    \newcommand{\skillThree}{\createskill{Frameworks \ \& \ Libraries}{MVVM \cpshalf Databinding \cpshalf WorkManager \cpshalf Navigation Component \cpshalf Koin \cpshalf Coroutines }}
+    \newcommand{\skillThreeContinued}{\createskill{}{Room \cpshalf Retrofit \cpshalf OkHttp \cpshalf Moshi \cpshalf RxJava \cpshalf Epoxy \cpshalf Dynamic Feature Modules}}
+    %
+    \newcommand{\skillFour}{\createskill{Languages}{\textbf{\emph{Fluent:}} \ \ English \ \ \textbf{\emph{Beginner:}} \ \  French }}
+    %
+    % List of all skills
+    \createskills{\skillOne, \skillTwo, \skillThree, \skillThreeContinued, \skillFour}
+    
+%%%%%%%%%%%%
+% Projects %
+%%%%%%%%%%%%
+\section{Projects}
+    % NewsCast
+    \createProjectSection{NewsCast, Android app written in Kotlin}{07/2020} %
+    \explanationdetail{\coloredbullet\ %
+        A convenient News app designed to showcase Android best practices. Uses MVVM, Coroutines, Databinding, Koin, Retrofit, Moshi, Room and more.\par %
+    }
+    \explanationdetail{\coloredbullet\ %
+        Offers offline reading, search capabilities, multiple language support and a beautiful UX. \par %
+    }
+    \createProjectLink{https://gerin98.github.io/NewsCast/}{\coloredbullet\ %
+        gerin98.github.io/NewsCast
+    }
+    % GitHub Client
+    \createProjectSection{GitHub Client, Android app written in Kotlin}{12/2019} %
+    \explanationdetail{\coloredbullet\ %
+        GitHub android app to let you easily search Github users and repos. Uses MVVM, RxJava and Retrofit alongisde the GitHub API. \par %
+    }
+    \createProjectLink{https://gerin98.github.io/androidGitClient/}{\coloredbullet\ %
+        gerin98.github.io/androidGitClient/
+    }
+
+%%%%%%%%%%%%
+% Footnote %
+%%%%%%%%%%%%
+% \createfootnote
+
+\end{document}
