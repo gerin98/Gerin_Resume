@@ -1,3 +1,3 @@
-# Gerin_Resume
+# Gerin's Resume
 
 ![Resume Screenshot](/gerin_resume.png)
